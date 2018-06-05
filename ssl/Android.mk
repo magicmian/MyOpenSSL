@@ -76,3 +76,4 @@ LOCAL_SHARED_LIBRARIES := libssl libcrypto
 LOCAL_MODULE:= ssltest
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_SHARED_LIBRARY)
+LOCAL_LDLIBS += -lz
